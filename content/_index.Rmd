@@ -1,0 +1,46 @@
+---
+title: Home
+---
+
+```{r setup, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE}
+library(tidyverse)
+library(DT)
+# library(widgetframe)
+
+ties_data <- tibble::tribble(~name,      ~number_of_ties, ~no_steps,  ~fold_in_half, ~end_tied_with, ~url,
+                             "rosebud1",   1,               "TBA",        "Y",       "little",       "https://www.youtube.com/watch?v=s-S1WSFTpuU",
+                             "rosebud2",   1,               "TBA",        "N",       "little",       "https://www.youtube.com/watch?v=-diYX2FH_AE",
+                             "vidalia",    1,               "TBA",        "N",       "little", "https://www.youtube.com/watch?v=ENYCWzrB9d8",
+                             "valentine",  1,               "TBA",        "Y",       "little", "https://www.youtube.com/watch?v=XwvNQYIZnSI",
+                             "sweetheart", 1,               "TBA",        "Y",       "little", "https://www.youtube.com/watch?v=nfoqEexLghI",
+                             "romance",    1,               "TBA",        "Y",       "little", "https://www.youtube.com/watch?v=XdRsQ3KuTqM",
+                             "cupid",      1,               "TBA",        "N",        "both", "https://www.youtube.com/watch?v=VWfEccMG_HI",
+                             "vampire",    1,               "TBA",        "Y",        "little", "https://www.youtube.com/watch?v=wFTkThHwagI",
+                             "embrace",    1,               "TBA",        "Y",        "little", "https://www.youtube.com/watch?v=mwfLpoyqeKE")  %>% 
+  mutate(image = paste0('<img src = "/img/', name, '.jpg"></img>'),
+         name = paste0("<a href='", url, "'target='_blank'>", name, "</a>")
+         ) %>% 
+  select(-url)
+
+```
+
+
+# Ben Gin's Blog
+This is a blog of things that I like to do.
+
+Currently only has Ties, but I intend to add pallet furniture and other craft projects.
+
+## Tie Summary
+I stumbled across a video on youtube showing two different ways of tying tie knots, and that led me to the discovery that there are 100+ ways to tie a tie.
+
+Below is a summary table of the tie knots that I have tried. I intend to come up with a calculation of difficulty using the columns in this table as inputs.
+
+```{r, echo=FALSE}
+ties_data %>% 
+  datatable(escape = FALSE)
+
+# widgetframe::frameWidget(ties_summ_tbl)
+```
+
+
+## Posts
