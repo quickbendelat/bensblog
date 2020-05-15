@@ -37,7 +37,7 @@ Below is a summary table of the tie knots that I have tried. I intend to come up
 
 ```{r, echo=FALSE}
 ties_data %>% 
-  datatable(escape = FALSE)
+  datatable(escape = FALSE, options = list(pageLength = 5, autowidth = TRUE), rownames = FALSE)
 
 # widgetframe::frameWidget(ties_summ_tbl)
 ```
