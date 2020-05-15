@@ -7,16 +7,16 @@ library(tidyverse)
 library(DT)
 # library(widgetframe)
 
-ties_data <- tibble::tribble(~name,      ~number_of_ties, ~no_steps,  ~fold_in_half, ~end_tied_with, ~url,
-                             "rosebud1",   1,               "TBA",        "Y",       "little",       "https://www.youtube.com/watch?v=s-S1WSFTpuU",
-                             "rosebud2",   1,               "TBA",        "N",       "little",       "https://www.youtube.com/watch?v=-diYX2FH_AE",
-                             "vidalia",    1,               "TBA",        "N",       "little", "https://www.youtube.com/watch?v=ENYCWzrB9d8",
-                             "valentine",  1,               "TBA",        "Y",       "little", "https://www.youtube.com/watch?v=XwvNQYIZnSI",
-                             "sweetheart", 1,               "TBA",        "Y",       "little", "https://www.youtube.com/watch?v=nfoqEexLghI",
-                             "romance",    1,               "TBA",        "Y",       "little", "https://www.youtube.com/watch?v=XdRsQ3KuTqM",
-                             "cupid",      1,               "TBA",        "N",        "both", "https://www.youtube.com/watch?v=VWfEccMG_HI",
-                             "vampire",    1,               "TBA",        "Y",        "little", "https://www.youtube.com/watch?v=wFTkThHwagI",
-                             "embrace",    1,               "TBA",        "Y",        "little", "https://www.youtube.com/watch?v=mwfLpoyqeKE")  %>% 
+ties_data <- tibble::tribble(~name,      ~number_of_ties, ~no_steps,  ~fold_in_half, ~end_tied_with, ~url,                                           ~shaping_difficulty,  ~no_loop_thrus,
+                             "rosebud1",   1,              7,         "Y",           "little",       "https://www.youtube.com/watch?v=s-S1WSFTpuU",   1,                   0,
+                             "rosebud2",   1,              5,         "N",       "little",       "https://www.youtube.com/watch?v=-diYX2FH_AE",   1,                   0,
+                             "vidalia",    1,              "TBA",        "N",       "little", "https://www.youtube.com/watch?v=ENYCWzrB9d8",   1,                   2,
+                             "valentine",  1,              "TBA",        "Y",       "little", "https://www.youtube.com/watch?v=XwvNQYIZnSI",   3,                   0,
+                             "sweetheart", 1,              "TBA",        "Y",       "little", "https://www.youtube.com/watch?v=nfoqEexLghI",   4,                   2,
+                             "romance",    1,              "TBA",        "Y",       "little", "https://www.youtube.com/watch?v=XdRsQ3KuTqM",   1,                   0,
+                             "cupid",      1,              "TBA",        "N",        "both", "https://www.youtube.com/watch?v=VWfEccMG_HI",   5,                   1,
+                             "vampire",    1,              "TBA",        "Y",        "little", "https://www.youtube.com/watch?v=wFTkThHwagI",   1,                   0,
+                             "embrace",    1,              "TBA",        "Y",        "little", "https://www.youtube.com/watch?v=mwfLpoyqeKE",   1,                   2)  %>% 
   mutate(image = paste0('<img src = "/img/', name, '.jpg"></img>'),
          name = paste0("<a href='", url, "'target='_blank'>", name, "</a>")
          ) %>% 
