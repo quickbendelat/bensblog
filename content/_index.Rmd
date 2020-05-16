@@ -29,9 +29,11 @@ ties_data <- tibble::tribble(~name,              ~no_ties, ~no_steps,  ~fold_in_
 
 
 # Ben Gin's Blog
-This is a blog of things that I like to do/make.
+This is a blog of things that I like to do/make including:
 
-Currently only has blogs about ties, but I intend to blog about pallet furniture and other craft projects.
+* Learning new tie knots
+* Building pallet furniture
+* Making craft projects
 
 ## Tie Summary
 I stumbled across a video on youtube showing two different ways of tying tie knots, and that led me to the discovery that there are 100+ ways to tie a tie.
@@ -48,5 +50,10 @@ ties_data %>%
 # widgetframe::frameWidget(ties_summ_tbl)
 ```
 
+## Pallet Furniture
+In 2011 I helped a colleague make a mobile pallet kitchen table, and so found out that I could obtain pallets from my work palce. Since then, I have obtained pallets from wherever I could find them. I disassemble them and store the wood ready for any projects. 
+
+## Craft Projects
+I also like to try my hand at any other craft projects.
 
 ## Posts

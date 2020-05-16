@@ -1,5 +1,6 @@
 ---
 title: Tie Theme -  Romantic
+date: '2020-05-14'
 slug: romantic-theme
 categories:
   - Ties
