@@ -9,7 +9,7 @@ tags: []
 
 Project date: December 2017
 
-After reading 'The Dark Tower' series by Stephen King, I found out about a novella "Little Sisters of Eluria" set just before "The Dark Tower: The Gunsliner". I just had to get my hands on a copy, so I searched the web and found a [free online version](https://thefreenovelsread.com/243334-the-little-sisters-of-eluria) of the novella.
+After reading 'The Dark Tower' series by Stephen King, I found out about a novella "Little Sisters of Eluria" set just before "The Dark Tower: The Gunslinger". I just had to get my hands on a copy, so I searched the web and found a [free online version](https://thefreenovelsread.com/243334-the-little-sisters-of-eluria) of the novella.
 
 However, I wanted a physical copy, and so I ordered a [copy from Amazon](https://www.amazon.com/Dark-Tower-Gunslinger-Little-Sisters/dp/0785149317). When it arrived, I opened it, and it was a comic (note the "marvel" logo in the top-left image of the collage below)!
 
@@ -24,6 +24,6 @@ After the feeling of disappointment had faded, Eureka! Free online version + dus
 5. Make a pouch to hold "The Gunslinger"
 6. Combine all the elements
 
-It turns out that the dust cover was for a special hard-back edition that included "Little Sisters of Eluria" along with "The Gunslinger", and hence, the dust cover spine was bigger than the printed pages of the novella. So, in step 1 above, I increased the text size to end up with more pages. The combined signatures was still too thin, so I decided to create a pouch to hold my copy of "The Gunsliner".
+It turns out that the dust cover was for a special hard-back edition that included "Little Sisters of Eluria" along with "The Gunslinger", and hence, the dust cover spine was bigger than the printed pages of the novella. So, in step 1 above, I increased the text size to end up with more pages. The combined signatures was still too thin, so I decided to create a pouch to hold my copy of "The Gunslinger".
 
 ![](/post/in-search-of-the-dark-tower_files/bookbind_collage.jpg)
