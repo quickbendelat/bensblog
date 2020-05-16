@@ -1,5 +1,5 @@
 ---
-title: Pallet - Standup Desk
+title: Standup Desk
 date: '2020-05-16'
 slug: pallet-standup-desk
 categories:
