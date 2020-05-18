@@ -14,10 +14,10 @@ I'm a huge fan of Spiderman and the Spidervese, and I thought it would be cool t
 
 ![concept to toy](/post/spider-gwen-soft-toy_files/spidergwen_concept_to_toy.png)
 
-I made a pattern on paper and tested it out on some srap fabric. For the hood, I found a pattern online that I copied to the size I required (lucky guess that came out right size durimg the test run with scrap fabric).
+I made a pattern on paper and tested it out on some srap fabric. For the hood, I found a pattern online that I copied to the size I required (lucky guess that came out right size during the test run with scrap fabric).
 
 ![spider-gwen pattern](/post/spider-gwen-soft-toy_files/spidergwen_pattern.jpg)
 
-I then proceeded to buy some felt and coloured thread. The hood was the most time consuming part of this project. It consists of two layers: a white outer layer, and a pink inner layer. I hand sticthed the blue thread to create the spider web pattern on the inside of the hood. The hood was also tricky to position correctly to sew, as sewing is done on the inside of the body to hide the seam. Therefore, when the body is turned inside out, the hood has to pop out in the correct orientation.
+I then proceeded to buy some felt and coloured thread. The hood was the most time consuming part of this project. It consists of two layers: a white outer layer, and a pink inner layer. I hand stitched the blue thread to create the spider web pattern on the inside of the hood. The hood was also tricky to position correctly to sew, as sewing is done on the inside of the body to hide the seam. Therefore, when the body is turned inside out, the hood has to pop out in the correct orientation.
 
 
