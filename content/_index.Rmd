@@ -44,7 +44,7 @@ I stumbled across a video on youtube showing two different ways of tying tie kno
 
 Below is a summary table of the tie knots that I have tried. I intend to come up with a calculation of difficulty using the columns in this table as inputs.
 
-Table updated: 2020-05-15
+Table updated: 2020-05-19
 
 ```{r, echo=FALSE}
 ties_data %>% 
