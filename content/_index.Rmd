@@ -9,7 +9,6 @@ output:
 library(tidyverse)
 library(DT)
 # library(gt)
-# library(widgetframe)
 
 tbl_update_date <- "2020-05-26"
 
@@ -80,14 +79,16 @@ I stumbled across a video on youtube showing two different ways of tying tie kno
 
 Below is a summary table of the tie knots that I have tried. I intend to come up with a calculation of difficulty using the columns in this table as inputs.
 
+The"Name" column contains a hyperlink to the youtube video for that knot, and the "image" column contains the image which can be enlarged by clicking on the image.
+
 Table updated: `r tbl_update_date`
 
 ```{r, echo=FALSE}
 ties_data %>%
   datatable(escape = FALSE, options = list(dom = 't', ordering = FALSE, autowidth = TRUE, pageLength = nrow(ties_data)), rownames = FALSE, colnames = c('Name', 'No. ties', 'No. steps', 'Fold in half', 'End', 'Shaping difficulty', 'No. loop thrus', 'image'))
 
-# ties_data %>% 
-#   gt() %>% 
+# ties_data %>%
+#   gt() %>%
 #   cols_label(
 #     name = "Name",
 #     no_ties = "No. ties",
@@ -97,7 +98,22 @@ ties_data %>%
 #     shaping_difficulty = "Shaping difficulty",
 #     no_loop_thrus = "No. loop thrus",
 #     image = "Image"
-#   )
+  # ) #%>% 
+  # fmt(
+  #   columns = vars(name, image),
+  #   fns = function(x) {
+  #     html(x)
+  #   }
+  # ) #%>%
+  # text_transform(
+  #   locations = cells_body(
+  #     columns = vars(name, image)
+  #   ),
+  #   fn = function(x) {
+  #     html(x)
+  #   }
+  # )
+
 
 ```
 
