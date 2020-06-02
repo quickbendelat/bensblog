@@ -10,9 +10,10 @@ library(tidyverse)
 library(DT)
 # library(gt)
 
-tbl_update_date <- "2020-05-26"
+tbl_update_date <- "2020-06-02"
 
 ties_data <- tibble::tribble(~name,              ~no_ties, ~no_steps,  ~fold_in_half, ~end_tied_with, ~url,                                              ~shaping_difficulty,       ~no_loop_thrus,
+                             "double_eldredge",  2,        6,          "N",           "little", "https://www.youtube.com/watch?v=jLYWJX4779A",     3,                         3,  
                              "double_trinity",   1,        6,          "N",           "little", "https://www.youtube.com/watch?v=6-0FdqYjv6s",     1,                         6,
                              "eldredge",         1,        6,          "N",           "little", "https://www.youtube.com/watch?v=FXyWSAmwVZ4",     1,                         0,
                              "eldredge2",        1,        6,          "N",           "little", "https://www.youtube.com/watch?v=FukqiewJuPw",     2,                         2,
