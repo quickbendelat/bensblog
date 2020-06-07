@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://bengin.netlify.app"
 languageCode = "en-us"
 title = "Ben Gin's Blog"
 theme = "hugo-xmin"
@@ -35,6 +35,7 @@ footnotereturnlinkcontents = "↩"
 #    name = "Subscribe"
 #    url = "/index.xml"
 
-#[params]
-#    description = "A website built through Hugo and blogdown."
+[params]
+    description = "A website built through Hugo and blogdown."
+    footer = "&copy; Ben Gin, 2020 . Powered by the [xmin theme](https://github.com/yihui/hugo-xmin) for [Hugo](https://gohugo.io)"
 #    footer = "&copy; [Yihui Xie](https://yihui.name) 2017 -- 2019 | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
