@@ -107,4 +107,4 @@ ties_detailed_tbl <- ties_input_df  %>%
   mutate(overall_difficulty = pmap(list(shaping_difficulty, no_ties, no_steps, fold_in_half, no_loop_thrus, end_tied_with), tie_overalldiff_calc)) %>% 
   unnest(overall_difficulty) %>% 
   mutate(overall_difficulty = round(10 * overall_difficulty/max(overall_difficulty), digits = 2)) %>%
-  select(name, overall_difficulty, shaping_difficulty, no_ties, no_steps, no_loop_thrus, image)
+  select(name, overall_difficulty, shaping_difficulty, no_ties, no_steps, no_loop_thrus, fold_in_half, end_tied_with, image)

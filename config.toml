@@ -7,9 +7,9 @@ disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 footnotereturnlinkcontents = "↩"
 
-#[permalinks]
-#    post = "/post/:slug/"
-#    note = "/note/:slug/"
+[permalinks]
+    post = "/post/:slug/"
+    note = "/note/:slug/"
 
 [[menu.main]]
     name = "Home"
