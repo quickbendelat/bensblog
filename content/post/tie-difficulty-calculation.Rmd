@@ -29,7 +29,7 @@ The following inputs have been used to calculate the overall difficulty:
 * End tied with (end_tied)
 
 The equation takes the form of base (modified shaping difficulty) modified by multipliers (all the other input parameters):
-$diffculty = base*no\_ties\_mult*no\_steps\_mult*no\_loops\_mult*fold\_in\_half\_mult*end\_tied\_mult$
+$diffculty = base\times no\_ties\_mult \\ \times no\_steps\_mult \\ \times no\_loops\_mult \\ \times fold\_in\_half\_mult \\ \times end\_tied\_mult$
 
 The difficulties are then normalised and multiplied by ten to give a rating out of 10.
 
