@@ -1,24 +1,25 @@
 # change the date when updating the table 
-tbl_update_date <- "2020-06-02"
+tbl_update_date <- "2020-06-09"
 
-# tie summary tablej for inputting new ties
+# tie summary table for inputting new ties
 ties_input_df <- ties_data <- tibble::tribble(~name,              ~no_ties, ~no_steps,  ~fold_in_half, ~end_tied_with, ~url,                                              ~shaping_difficulty,       ~no_loop_thrus,
-                                              "double_eldredge",  2,        6,          "N",           "little", "https://www.youtube.com/watch?v=jLYWJX4779A",     3,                         3,  
-                                              "double_trinity",   1,        6,          "N",           "little", "https://www.youtube.com/watch?v=6-0FdqYjv6s",     1,                         6,
-                                              "eldredge",         1,        6,          "N",           "little", "https://www.youtube.com/watch?v=FXyWSAmwVZ4",     1,                         0,
-                                              "eldredge2",        1,        6,          "N",           "little", "https://www.youtube.com/watch?v=FukqiewJuPw",     2,                         2,
-                                              "trinity_eldredge", 1,        5,          "N",           "little", "https://www.youtube.com/watch?v=Ls_MgWrTVrk",     1,                         2,
-                                              "trinity",          1,        4,          "N",           "little", "https://www.youtube.com/watch?v=IX_GixAhXeY",     2,                         2,
+                                              "intrinity",        1,        4,          "Y",           "little",       "https://www.youtube.com/watch?v=38uEMP_jEkg",     2,                         4,
+                                              "double_eldredge",  2,        6,          "N",           "little",       "https://www.youtube.com/watch?v=jLYWJX4779A",     3,                         3,  
+                                              "double_trinity",   1,        6,          "N",           "little",       "https://www.youtube.com/watch?v=6-0FdqYjv6s",     1,                         6,
+                                              "eldredge",         1,        6,          "N",           "little",       "https://www.youtube.com/watch?v=FXyWSAmwVZ4",     1,                         0,
+                                              "eldredge2",        1,        6,          "N",           "little",       "https://www.youtube.com/watch?v=FukqiewJuPw",     2,                         2,
+                                              "trinity_eldredge", 1,        5,          "N",           "little",       "https://www.youtube.com/watch?v=Ls_MgWrTVrk",     1,                         2,
+                                              "trinity",          1,        4,          "N",           "little",       "https://www.youtube.com/watch?v=IX_GixAhXeY",     2,                         2,
                                               "rosebud1",         1,        6,          "Y",           "little",       "https://www.youtube.com/watch?v=s-S1WSFTpuU",     2,                         1,
                                               "rosebud2",         1,        4,          "N",           "little",       "https://www.youtube.com/watch?v=-diYX2FH_AE",     2,                         0,
-                                              "vidalia",          1,        5,          "N",           "little", "https://www.youtube.com/watch?v=ENYCWzrB9d8",     2,                         3,
-                                              "valentine",        1,        5,          "Y",           "little", "https://www.youtube.com/watch?v=XwvNQYIZnSI",     3,                         1,
-                                              "sweetheart",       1,        4,          "Y",           "little", "https://www.youtube.com/watch?v=nfoqEexLghI",     4,                         3,
-                                              "romance",          1,        5,          "Y",           "little", "https://www.youtube.com/watch?v=XdRsQ3KuTqM",     3,                         5,
-                                              "cupid",            1,        3,          "N",           "both", "https://www.youtube.com/watch?v=VWfEccMG_HI",     5,                         1,
-                                              "vampire",          1,        5,          "Y",           "little", "https://www.youtube.com/watch?v=wFTkThHwagI",     1,                         0,
-                                              "embrace",          1,        3,          "Y",           "little", "https://www.youtube.com/watch?v=mwfLpoyqeKE",     1,                         3,
-                                              "deivao_twist",     1,        6,          "N",           "little", "https://www.youtube.com/watch?v=mCANkZKtES4",     1,                         3)  
+                                              "vidalia",          1,        5,          "N",           "little",       "https://www.youtube.com/watch?v=ENYCWzrB9d8",     2,                         3,
+                                              "valentine",        1,        5,          "Y",           "little",       "https://www.youtube.com/watch?v=XwvNQYIZnSI",     3,                         1,
+                                              "sweetheart",       1,        4,          "Y",           "little",       "https://www.youtube.com/watch?v=nfoqEexLghI",     4,                         3,
+                                              "romance",          1,        5,          "Y",           "little",       "https://www.youtube.com/watch?v=XdRsQ3KuTqM",     3,                         5,
+                                              "cupid",            1,        3,          "N",           "both",         "https://www.youtube.com/watch?v=VWfEccMG_HI",     5,                         1,
+                                              "vampire",          1,        5,          "Y",           "little",       "https://www.youtube.com/watch?v=wFTkThHwagI",     1,                         0,
+                                              "embrace",          1,        3,          "Y",           "little",       "https://www.youtube.com/watch?v=mwfLpoyqeKE",     2,                         3,
+                                              "deivao_twist",     1,        6,          "N",           "little",       "https://www.youtube.com/watch?v=mCANkZKtES4",     1,                         3)  
 
 # tie column definitions
 base_tie_rating_tbl <- tibble::tribble(~shaping_diff, ~base,
