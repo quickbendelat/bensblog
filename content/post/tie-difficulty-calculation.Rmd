@@ -37,7 +37,9 @@ Below are tables detailing the base and multipliers applied to each tie knot.
 
 
 ## Shaping difficulty
-The shaping difficulty is modified to become the base. I use it is as a subjective factor as to how difficult it was for me to initially tie a particular knot. As I gain more experience through practice, this would likely come down.
+The shaping difficulty is modified to become the base. I use it is as a subjective factor as to how difficult it was for me to initially tie a particular knot. As I gain more experience through practice, this would likely come down. 
+
+I also use this as a tweaking factor to bring the tie ratings more in line. For example, the Caped Eldredge tie was difficult to tie, but I ended up reducing the shaping factor. Due to the other non-subjective parameters, if I gave it a high shaping difficulty, the other tie knots would all end up with very low overall difficulties.
 ```{r echo=FALSE}
 base_tie_rating_tbl %>% 
   gt() %>% 
