@@ -1,7 +1,7 @@
 ---
 title: Tie Rack
 date: '2020-06-20'
-slug: pallet-standup-desk
+slug: tie-rack
 categories:
   - Pallet Projects
   - Ties
