@@ -1,6 +1,6 @@
 ---
 title: Tie Rack
-date: '2020-06-20'
+date: '2020-07-11'
 slug: tie-rack
 categories:
   - Pallet Projects
@@ -32,4 +32,9 @@ The wooden plank was cut into two pieces and joined with the hinge. Holes were d
 
 There was just enough space for two rows of 8 rods, which was just enough for my 16 ties. When my tie collection grows, I will need to construct another storage rack.
 
+## UPDATE
+Project Date: July 2020
 
+I purchased more ties, and therefore, storage rack number 2 was created. I wanted something different this time, and inspired by Pinterest, I made a rotating tie rack. I wanted to make this completely out of wood (no screws etc. except for attaching it to a cabinet wall). Using bits of srap pallet wood, I started by cutting out a circle for which to attach the dowels for draping the ties over. Once this centre piece along with the tie rods was complete, I then constructed the rest of the unit to be able to rotate this centre piece. The central rod came from a length of left over dowelling, with both ends slightly tapered so that they could be hammered into the top and bottom pieces in order to secure the entire unit without any screws. The result can be seen in the picture below, and it has room for 14 ties.
+
+![rotary tie rack](/post/tie-rack_files/rotary_tie_holder.jpg)
