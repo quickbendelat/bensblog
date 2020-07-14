@@ -4,6 +4,7 @@ tbl_update_date <- "2020-07-07"
 # tie summary table for inputting new ties
 ties_input_df <- tibble::tribble(
                                  ~name,                        ~no_ties, ~no_steps, ~no_loop_thrus, ~shaping_difficulty, ~fold_in_half, ~end_tied_with,  ~url,
+                                 "singularity",                1,        4,         1,              2,                   "N",           "little",        "https://www.youtube.com/watch?v=1sBpxlEZ8wo",
                                  "saturn",                     1,        5,         1,              2,                   "Y",           "little",        "https://www.youtube.com/watch?v=LKzvTVtfPTU",  
                                  "conch",                      1,        6,         1,              3,                   "N",           "little",        "https://www.youtube.com/watch?v=UQYT-oGdpf4",
                                  "pentanity",                  1,        6,         3,              2,                   "N",           "little",         NA,
