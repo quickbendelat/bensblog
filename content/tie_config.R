@@ -4,7 +4,7 @@ tbl_update_date <- "2020-08-17"
 # tie summary table for inputting new ties
 ties_input_df <- tibble::tribble(
                                  ~name,                        ~no_ties, ~no_steps, ~no_loop_thrus, ~shaping_difficulty, ~fold_in_half, ~end_tied_with,  ~url,
-                                 "supernova",                  1,        3,         2,              1,                   "Y",           "little",         NA,
+                                 "supernova",                  1,        3,         1,              1,                   "Y",           "little",         NA,
                                  "cosmo",                      1,        6,         1,              1,                   "N",           "little",        "https://www.youtube.com/watch?v=whxZ9j3rTgk",
                                  "nebula",                     1,        5,         0,              2,                   "N",           "little",         NA,
                                  "eclipse",                    1,        4,         1,              2,                   "Y",           "little",        "https://www.youtube.com/watch?v=IhbSTCJLJzU",
