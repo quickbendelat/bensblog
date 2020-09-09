@@ -1,9 +1,10 @@
 # change the date when updating the table 
-tbl_update_date <- "2020-09-01"
+tbl_update_date <- "2020-09-09"
 
 # tie summary table for inputting new ties
 ties_input_df <- tibble::tribble(
                                  ~name,                        ~no_ties, ~no_steps, ~no_loop_thrus, ~shaping_difficulty, ~fold_in_half, ~end_tied_with,  ~url,
+                                 "romeo_and_juliet",           2,        7,         2,              4,                   "N",           "little",        "https://www.youtube.com/watch?v=eQmsYCISGrI",
                                  "celestial",                  1,        5,         0,              1,                   "N",           "little",        "https://www.youtube.com/watch?v=wm_bgjakWpY",
                                  "astro",                      1,        8,         2,              1,                   "N",           "little",        "https://www.youtube.com/watch?v=ZrfDjcjttLk",    
                                  "double_trinity2",            1,        7,         6,              1,                   "N",           "little",         NA,
@@ -19,7 +20,7 @@ ties_input_df <- tibble::tribble(
                                  "caped_eldredge",             1,        7,         4,              3,                   "Y",           "big",           "https://www.youtube.com/watch?v=6X3DdiKq-jc",
                                  "double_trinity_eldredge",    2,        7,         7,              1,                   "N",           "little",         NA,
                                  "double_intrinity",           2,        5,         4,              2,                   "Y",           "little",        "https://www.youtube.com/watch?v=G11Be_KRWr8",
-                                 "water",                      1,        4,         2,              3,                   "Y",           "little",         NA,
+                                 "water",                      1,        4,         2,              1,                   "Y",           "little",         NA,
                                  "intrinity",                  1,        4,         4,              2,                   "Y",           "little",        "https://www.youtube.com/watch?v=38uEMP_jEkg",
                                  "double_eldredge",            2,        6,         3,              3,                   "N",           "little",        "https://www.youtube.com/watch?v=jLYWJX4779A",
                                  "double_trinity",             1,        6,         6,              1,                   "N",           "little",        "https://www.youtube.com/watch?v=6-0FdqYjv6s",
