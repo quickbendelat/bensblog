@@ -1,9 +1,10 @@
 # change the date when updating the table 
-tbl_update_date <- "2020-10-06"
+tbl_update_date <- "2020-10-13"
 
 # tie summary table for inputting new ties
 ties_input_df <- tibble::tribble(
                                  ~name,                        ~no_ties, ~no_steps, ~no_loop_thrus, ~shaping_difficulty, ~fold_in_half, ~end_tied_with,  ~url,
+                                 "vortex",                     1,        7,         0,              1,                   "N",           "little",        "https://www.youtube.com/watch?v=SU156Kqs108",
                                  "tiephoon",                   1,        7,         0,              2,                   "Y",           "little",        "https://www.youtube.com/watch?v=whqtF9Y6zRo",
                                  "cyclone",                    1,        4,         4,              1,                   "N",           "little",        "https://www.youtube.com/watch?v=I_-kkuascXk",
                                  "tornado",                    1,        7,         0,              3,                   "N",           "little",        "https://www.youtube.com/watch?v=KgfHW6-vevM",
