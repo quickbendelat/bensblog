@@ -39,6 +39,8 @@ Below is a summary table of the tie knots that I have tried. The "Name" column c
 
 A more detailed table that is arrangeable and searchable can be found in this [post](/post/tie-detailed-table/).
 
+Current tally of tie knots is: `r nrow(ties_input_df)`
+
 Table updated: `r tbl_update_date`
 
 ```{r, echo=FALSE}
