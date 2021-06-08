@@ -35,7 +35,7 @@ I also like to try my hand at any other craft projects.
 ## Tie Summary
 I stumbled across a video on youtube showing two different ways of tying tie knots, and that led me to the discovery that there are 100+ ways to tie a tie. Starting from a work initiative to "suit up Tuesday" (March 2020), I decided to make it mean "Tie Tuesday", and so have been doing one new tie knot a week.
 
-Below is a summary table of the tie knots that I have tried. The "Name" column contains a hyperlink to the youtube video for that knot, and the "Image" column contains the image which can be enlarged by clicking (or tapping) on the image. The "Difficulty" column is a calculated value (details of the calculation can be found in this [post](/post/tie-difficulty-calculation)) and the numbers are relative with a maximum of 10 for what I consider the most difficult tie knot.
+Below is a summary table of the tie knots that I have tried. The "Name" column contains a hyperlink to the youtube video for that knot, or a photo on pinterest from which I have tried my best to replicate. If a "Name" does not have a link, then it is either a knot I have come up with myself, or it is a variation to an existing knot. The "Image" column contains the image which can be enlarged by clicking (or tapping) on the image. The "Difficulty" column is a calculated value (details of the calculation can be found in this [post](/post/tie-difficulty-calculation)) and the numbers are relative with a maximum of 10 for what I consider the most difficult tie knot.
 
 A more detailed table that is arrangeable and searchable can be found in this [post](/post/tie-detailed-table/).
 
