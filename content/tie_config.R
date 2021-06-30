@@ -1,9 +1,11 @@
 # change the date when updating the table 
-tbl_update_date <- "2021-06-08"
+tbl_update_date <- "2021-06-30"
 
 # tie summary table for inputting new ties
 ties_input_df <- tibble::tribble(
                                  ~name,                        ~no_ties, ~no_steps, ~no_loop_thrus, ~shaping_difficulty, ~fold_in_half, ~end_tied_with,  ~url,
+                                 "bow_tie_bonney_cross",       1,        4,         1,              2,                   "N",           "little",        "https://www.youtube.com/watch?v=KBcilqNjjEc",
+                                 "turban",                     1,        7,         3,              3,                   "Y",           "little",        "https://www.youtube.com/watch?v=m6KywF7c_6c",
                                  "classic",                    1,        5,         3,              1,                   "N",           "little",        "https://www.pinterest.nz/pin/307089268349364251/",
                                  "traverse",                   1,        3,         2,              1,                   "Y",           "little",        "https://www.youtube.com/watch?v=HjDR5fU2EEM",
                                  "helix",                      1,        4,         2,              5,                   "Y",           "little",        "https://www.youtube.com/watch?v=EwYqRAgOIpA",
