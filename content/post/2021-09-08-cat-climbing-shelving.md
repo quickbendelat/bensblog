@@ -23,4 +23,6 @@ Beany watched me build the shelves and was very curious as it was going up. Once
 
 ![collage of cat using the shelves](/post/2021-09-08-cat-climbing-shelving_files/cat_climbing_shelving_action.jpg)
 
+![sleeping cat](/post/2021-09-08-cat-climbing-shelving_files/beany_sleeping.jpg)
+
 Beany has recently been bypassing the ramp, and instead jumps directly onto the lowest shelf, so I have removed the ramp.
