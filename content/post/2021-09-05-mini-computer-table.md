@@ -23,3 +23,7 @@ I didn't have enough long screws to be able to hold the computer desk structure 
 ![mini computer table](/post/2021-09-05-mini-computer-table_files/mini_computer_table.jpg)
 
 Now I can use this set up to write future blog posts!
+
+Update: My daughter discovered that she could sit on the keyboard stand to play games.
+
+![daughter at desk](/post/2021-09-05-mini-computer-table_files/minicomputerdeskkid.jpg)
