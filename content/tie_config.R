@@ -1,5 +1,5 @@
 # change the date when updating the table 
-tbl_update_date <- "2021-11-30"
+tbl_update_date <- "2022-03-09"
 
 # tie summary table for inputting new ties
 ties_input_df <- tibble::tribble(
